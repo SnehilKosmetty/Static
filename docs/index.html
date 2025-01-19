@@ -1,0 +1,457 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snehil Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#home">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#home">
+                                <i class="fas fa-home"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#experience">
+                                <i class="fas fa-briefcase"></i> Experience
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#skills">
+                                <i class="fas fa-tools"></i> Skills
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#projects">
+                                <i class="fas fa-code-branch"></i> Projects
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#education">
+                                <i class="fas fa-graduation-cap"></i> Education
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#certifications">
+                                <i class="fas fa-certificate"></i> Certifications
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-user"></i> More
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="coursework.html">
+                                        <i class="fas fa-graduation-cap"></i> Course Work
+                                    </a>
+                                </li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <a class="dropdown-item" href="documents/Snehil.NET.pdf" target="_blank">
+                                        <i class="fas fa-file-pdf"></i> Download CV
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <button id="scrollToTop" class="scroll-to-top" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <div class="container-fluid px-0">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section text-center py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <div class="profile-card tilt-effect">
+                            <div class="profile-image-container fade-in">
+                                <img src="images/PICS.jpg" alt="Snehil" class="profile-image">
+                                <div class="profile-overlay">
+                                    <div class="profile-quote">Turning Ideas into Reality</div>
+                                </div>
+                            </div>
+                            <div class="profile-info">
+                                <h1 class="name fade-in">Snehil</h1>
+                                <p class="title fade-in">.NET Full Stack Developer</p>
+                                <div class="typing-text"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 text-lg-start">
+                        <div class="about-content fade-in">
+                            <h2 class="section-title gradient-text">About Me</h2>
+                            <p class="description">
+                                I am a dedicated .NET Full Stack Developer with 4 years of experience in building scalable web applications 
+                                using .NET Core, Angular, and React. I focus on writing clean, maintainable code and follow best practices 
+                                to deliver efficient, user-centric software solutions.
+                            </p>
+                            <div class="expertise-grid">
+                                <div class="expertise-item" data-aos="fade-up">
+                                    <i class="fas fa-laptop-code"></i>
+                                    <h3>Full Stack Development</h3>
+                                    <p>Building end-to-end solutions with .NET Core & Modern JavaScript</p>
+                                </div>
+                                <div class="expertise-item" data-aos="fade-up">
+                                    <i class="fas fa-database"></i>
+                                    <h3>Database Design</h3>
+                                    <p>Optimizing database performance and structure</p>
+                                </div>
+                                <div class="expertise-item" data-aos="fade-up">
+                                    <i class="fas fa-code-branch"></i>
+                                    <h3>Clean Architecture</h3>
+                                    <p>Implementing clean code principles and best practices</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links mt-5">
+                            <a href="https://github.com/SnehilKosmetty" class="btn btn-dark" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://www.linkedin.com/in/snehild1357724/" class="btn btn-primary" target="_blank">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kosmettysnehil16@gmail.com&su=Portfolio%20Inquiry&body=Hello%20Snehil%2C%0D%0A%0D%0AI%20visited%20your%20portfolio%20and%20would%20like%20to%20connect%20regarding..."
+                               class="btn btn-info"
+                               target="_blank">
+                                <i class="fas fa-envelope"></i> Email Me
+                            </a>
+                            <a href="documents/Snehil.NET.pdf" class="btn btn-success" target="_blank">
+                                <i class="fas fa-file-pdf"></i> View CV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section py-5">
+            <div class="container">
+                <h2 class="section-title text-center gradient-text mb-5">Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-content">
+                            <h3>Full Stack .NET Developer</h3>
+                            <h4>Unisys</h4>
+                            <p class="timeline-date">June 2023 - Present</p>
+                            <p>As a Full Stack Developer, I was responsible for designing and developing complete 
+                            web applications by integrating modern frontend frameworks like Angular and React with 
+                            .NET Core backends. My work emphasized creating responsive, user-friendly interfaces and 
+                            scalable backend services while ensuring secure deployment on cloud platforms such as Azure. 
+                            I focused on delivering efficient, user-centric applications, leveraging state management 
+                            tools like Redux and microservices architecture for enhanced functionality. Collaborating 
+                            within Agile teams, I ensured timely delivery of robust, cloud-ready solutions.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-left">
+                        <div class="timeline-content">
+                            <h3>.NET Developer</h3>
+                            <h4>Cognerium</h4>
+                            <p class="timeline-date">June 2019 - Nov 2021</p>
+                            <p> As a Developer, I focused on developing and implementing backend solutions using .NET Core and C#. 
+                            My responsibilities included designing RESTful APIs, optimizing database operations with 
+                            SQL Server, and migrating legacy systems to modern frameworks to enhance performance and 
+                            maintainability. I collaborated with cross-functional teams to ensure seamless integration 
+                            and delivered reliable, high-performance software solutions. Working in an Agile environment, 
+                            I also contributed to testing and debugging processes to maintain the highest quality standards.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section py-5">
+            <div class="container">
+                <h2 class="section-title text-center gradient-text mb-5">Skills</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <div class="skills-grid">
+                            <div class="skill-category" data-aos="fade-up">
+                                <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">C#</span>
+                                    <span class="skill-tag">JavaScript</span>
+                                    <span class="skill-tag">TypeScript</span>
+                                    <span class="skill-tag">HTML5/CSS3</span>
+                                    <span class="skill-tag">SQL</span>
+                                </div>
+                            </div>
+                            <div class="skill-category" data-aos="fade-up">
+                                <h3><i class="fas fa-layer-group"></i> Frameworks & Libraries</h3>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">.NET Core</span>
+                                    <span class="skill-tag">ASP.NET MVC</span>
+                                    <span class="skill-tag">Entity Framework</span>
+                                    <span class="skill-tag">React.js</span>
+                                    <span class="skill-tag">Angular</span>
+                                    <span class="skill-tag">Bootstrap</span>
+                                    <span class="skill-tag">ADO.NET</span>
+                                    <span class="skill-tag">Entity Framework</span>
+                                    <span class="skill-tag">Swagger</span>
+                                </div>
+                            </div>
+                            <div class="skill-category" data-aos="fade-up">
+                                <h3><i class="fas fa-database"></i> Databases</h3>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">SQL Server</span>
+                                    <span class="skill-tag">PostgreSQL</span>
+                                    <span class="skill-tag">MongoDB</span>
+                                </div>
+                            </div>
+                            <div class="skill-category" data-aos="fade-up">
+                                <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Git</span>
+                                    <span class="skill-tag">Azure</span>
+                                    <span class="skill-tag">AWS</span>
+                                    <span class="skill-tag">Jenkins</span>
+                                    <span class="skill-tag">Docker</span>
+                                    <span class="skill-tag">Kubernetes</span>
+                                    <span class="skill-tag">Azure Devops</span>
+                                    <span class="skill-tag">Docker</span>
+                                    <span class="skill-tag">Visual Studio</span>
+                                    <span class="skill-tag">TFS</span>
+                                    <span class="skill-tag">IIS</span>
+                                    <span class="skill-tag">CI/CD</span>
+                                    <span class="skill-tag">Jira</span>
+                                    <span class="skill-tag">Postman</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section py-5">
+            <div class="container">
+                <h2 class="section-title text-center gradient-text mb-5">Projects</h2>
+                <div class="row">
+                    <!-- E-Commerce Platform -->
+                    <div class="col-md-6 mb-4" data-aos="fade-up">
+                        <div class="project-card">
+                            <img src="images/Bookimage.jpg" class="project-image" alt="E-Commerce Platform">
+                            <div class="project-content">
+                                <h3>E-Commerce Platform</h3>
+                                <p>
+                                    Developed a full-stack e-commerce solution with product management, shopping cart, payment integration,
+                                    and order tracking. Built advanced ASP.NET Core projects with Identity Framework, Stripe payments, and 
+                                    repository pattern, leveraging modern web development techniques. Deployed applications on 
+                                    Microsoft Azure and IIS, showcasing cloud hosting and server management expertise.
+                                </p>
+                                <div class="tech-stack">
+                                    <span class="tech-tag">ASP.NET Core (8.0)</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">HTML5/CSS3</span>
+                                    <span class="tech-tag">SQL Server</span>
+                                    <span class="tech-tag">Azure</span>
+                                    <span class="tech-tag">Visual Studio 2022</span>
+                                </div>
+                                <div class="project-links mt-3">
+                                    <a href="https://github.com/SnehilKosmetty/.NET8.0_App" class="btn btn-outline-dark" target="_blank">
+                                        <i class="fab fa-github"></i> GitHub
+                                    </a>
+                                    <a href="https://enterpriseapp8.azurewebsites.net/" class="btn btn-outline-primary" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- My Portfolio-->
+                    <div class="col-md-6 mb-4" data-aos="fade-up">
+                        <div class="project-card">
+                            <img src="images/My_Portfolio.png" class="project-image" alt="My Portfolio">
+                            <div class="project-content">
+                                <h3>My Portfolio </h3>
+                                <p>Developed and deployed a responsive static web application using .NET 8.0, HTML, CSS, and JavaScript 
+                                with a clean and maintainable project structure. Designed visually appealing pages with 
+                                custom styling and dynamic functionality for an engaging user experience. Successfully hosted the 
+                                application on GitHub Pages, ensuring seamless and lightweight accessibility.</p>
+                                <div class="tech-stack">
+                                    <span class="tech-tag">ASP.NET Core</span>
+                                    <span class="tech-tag">HTML5/CSS3</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">Git/GitHub</span>
+                                    <span class="tech-tag">GitHub Pages</span>
+                                    <span class="tech-tag">Visual Studio 2022</span>
+                                </div>
+                                <div class="project-links mt-3">
+                                    <a href="https://github.com/SnehilKosmetty/Static" class="btn btn-outline-dark" target="_blank">
+                                        <i class="fab fa-github"></i> GitHub
+                                    </a>
+                                    <a href="https://snehilkosmetty.github.io/Static/" class="btn btn-outline-primary" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Healthcare Portal -->
+                    <!--<div class="col-md-6 mb-4" data-aos="fade-up">
+                        <div class="project-card">
+                            <img src="images/healthcare.jpg" class="project-image" alt="Healthcare Portal">
+                            <div class="project-content">
+                                <h3>Healthcare Portal</h3>
+                                <p>A secure healthcare management system featuring appointment scheduling, patient records, and medical history tracking.</p>
+                                <div class="tech-stack">
+                                    <span class="tech-tag">.NET Core</span>
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">MySQL</span>
+                                    <span class="tech-tag">Docker</span>
+                                </div>
+                                <div class="project-links mt-3">
+                                    <a href="https://github.com/your-username/healthcare" class="btn btn-outline-dark" target="_blank">
+                                        <i class="fab fa-github"></i> GitHub
+                                    </a>
+                                    <a href="https://healthcare-demo.com" class="btn btn-outline-primary" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i> Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section py-5">
+            <div class="container">
+                <h2 class="section-title text-center gradient-text mb-5">Education</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <div class="education-timeline">
+                            <div class="education-timeline-item" data-aos="fade-up">
+                                <div class="education-timeline-content">
+                                    <div class="education-item">
+                                        <div class="education-period">Jan 2022 - May 2023</div>
+                                        <h3 class="education-title">Masters in Computer Information Systems</h3>
+                                        <h4 class="education-institution">New England College</h4>
+                                        <div class="education-location">
+                                            <i class="fas fa-map-marker-alt"></i> New Hampshire, USA
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="education-timeline-item" data-aos="fade-up">
+                                <div class="education-timeline-content">
+                                    <div class="education-item">
+                                        <div class="education-period">July 2015 - May 2019</div>
+                                        <h3 class="education-title">Bachelor in ECE</h3>
+                                        <h4 class="education-institution">Avanthi Institute of Engineering and Technology</h4>
+                                        <div class="education-location">
+                                            <i class="fas fa-map-marker-alt"></i> Hyderabad, India
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications-section py-5">
+            <div class="container">
+                <h2 class="section-title text-center gradient-text mb-5">Certifications</h2>
+                <div class="row justify-content-center">
+                    <!-- Azure Developer Associate -->
+                    <!--<div class="col-lg-6 col-md-8 mb-4" data-aos="fade-up">
+                        <div class="certification-card">
+                            <div class="certification-header">
+                                <div class="certification-badge">
+                                    <img src="images/certifications/azure-developer.png" alt="Azure Developer Associate" class="certification-image">
+                                </div>
+                                <div class="certification-info">
+                                    <h3>Azure Developer Associate</h3>
+                                    <div class="certification-issuer">
+                                        <i class="fas fa-certificate"></i> Microsoft
+                                    </div>
+                                    <div class="certification-date">
+                                        <i class="fas fa-calendar-alt"></i> 2024
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="certification-body">
+                                <a href="@cert.CredentialUrl" target="_blank" class="certification-verify-btn">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Verify Credential
+                                </a>
+                            </div>
+                        </div>
+                    </div>-->
+
+                    <!-- .NET Full Stack Developer -->
+                    <div class="col-lg-6 col-md-8 mb-4" data-aos="fade-up">
+                        <div class="certification-card">
+                            <div class="certification-header">
+                                <div class="certification-badge">
+                                    <img src="images/Udemy3.png" alt=".NET Full Stack Developer" class="certification-image">
+                                </div>
+                                <div class="certification-info">
+                                    <h3>.NET Core MVC [.NET8]</h3>
+                                    <div class="certification-issuer">
+                                        <i class="fas fa-certificate"></i> Udemy
+                                    </div>
+                                    <div class="certification-date">
+                                        <i class="fas fa-calendar-alt"></i> 2024
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="certification-body">
+                                <a href="https://www.udemy.com/certificate/UC-6a1502f0-366f-4b95-99ab-fe52ef1dd8ab/" target="_blank" class="certification-verify-btn">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Verify Credential
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <footer class="border-top  footer text-muted">
+        <div class="container text-center text-dark">
+            &copy; 2024 Snehil Portfolio <i class="bi bi-house-fill" aria-hidden="true"></i>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/site.js"></script>
+</body>
+</html>
