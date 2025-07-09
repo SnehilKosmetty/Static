@@ -1,0 +1,253 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Work</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body style="background-color: lightgray;">
+    <div class="coursework-navigation">
+        <div class="container-fluid">
+            <div class="nav-buttons-container">
+                <a href="index.html" class="nav-btn nav-btn-home">
+                    <i class="fas fa-home"></i> Home
+                </a>
+                <h1 class="coursework-title">Course Work</h1>
+                <a href="javascript:history.back()" class="nav-btn nav-btn-back">
+                    <i class="fas fa-arrow-left"></i> Back
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="page-transition">
+        <main role="main" class="pb-3">
+            <div class="coursework-container">
+                <div class="container">
+                    <div class="row coursework-header">
+                        <div class="col-md-6">Course</div>
+                        <div class="col-md-4">Period</div>
+                        <div class="col-md-2">Grade</div>
+                    </div>
+                    <!-- Course 1 -->
+                    <div class="course-row" onclick="toggleDetails(this)">
+                        <div class="row course-content">
+                            <div class="col-md-6">CT5230 | Cloud Computing Concepts</div>
+                            <div class="col-md-4">Spring I 2023</div>
+                            <div class="col-md-2">
+                                A (4.0)
+                                <i class="fas fa-chevron-down float-right chevron"></i>
+                            </div>
+                        </div>
+                        <div class="course-details">
+                            <div class="course-details-inner">
+                                <p>
+                                    This course provides the basic skills required to analyze, design, and implement cloud-based solutions in a multitude of organizational structures.
+                                    It focuses on the integration of scalable, reliable platforms, utilizing such fundamental concepts as: private vs. public clouds, migration, virtualization, debugging, development and performance metrics, and disaster recovery.
+                                    Additional tools and topics, such as the use of Amazon Web Servers, are also explored.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Course 2 -->
+                    <div class="course-row" onclick="toggleDetails(this)">
+                        <div class="row course-content">
+                            <div class="col-md-6">CT6540 | Python for Data Science&Anlytc</div>
+                            <div class="col-md-4">Spring I 2023</div>
+                            <div class="col-md-2">
+                                A (4.0)
+                                <i class="fas fa-chevron-down float-right chevron"></i>
+                            </div>
+                        </div>
+                        <div class="course-details">
+                            <div class="course-details-inner">
+                                <p>
+                                    The course begins with a review of basic Python syntax, concepts and operation.
+                                    The course will explore using JSON and SQL for data exchange and database access.
+                                    Students will learn to work with the Python libraries that are used for mathematical calculations and data analysis, including: Pandas, NumPy, and SciPy.
+                                    Once familiar with data generation, analysis and visualization techniques, the class will use Matplotlib to analyze data, and develop data-driven decisions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Course 3-->
+                    <div class="course-row" onclick="toggleDetails(this)">
+                        <div class="row course-content">
+                            <div class="col-md-6">CT6560 | Web Programming with PHP/MySQL</div>
+                            <div class="col-md-4">Spring II 2023</div>
+                            <div class="col-md-2">
+                                A (4.0)
+                                <i class="fas fa-chevron-down float-right chevron"></i>
+                            </div>
+                        </div>
+                        <div class="course-details">
+                            <div class="course-details-inner">
+                                <p>
+                                    Server-Side Web Programming introduces the student to the core concepts of creating dynamic web pages using the PHP programming language and the MySQL database server.
+                                    Students will learn to create and maintain their own databases and to execute the SQL required to access those structures using PHP.
+                                    Students will acquire the skills and templates required to construct web-based, content management oriented platforms.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Course 4-->
+                    <div class="course-row" onclick="toggleDetails(this)">
+                        <div class="row course-content">
+                            <div class="col-md-6">CT6670 | Network Communications</div>
+                            <div class="col-md-4">Spring II 2023</div>
+                            <div class="col-md-2">
+                                A (4.0)
+                                <i class="fas fa-chevron-down float-right chevron"></i>
+                            </div>
+                        </div>
+                        <div class="course-details">
+                            <div class="course-details-inner">
+                                <p>
+                                    In this course you will study data communication networks focusing on the layered network structure and basic protocol functions.
+                                    The course covers issues such as addressing, multiplexing, routing, forwarding, flow control, error control, congestion response, and reliability.
+                                    It includes wired, wireless, and mobile networks. Multimedia, security, and network management topics will be introduced.
+                                    Brief coverage is provided of the history of the Internet and the development of communication standards
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Course 5-->
+                    <div class="course-row" onclick="toggleDetails(this)">
+                        <div class="row course-content">
+                            <div class="col-md-6">CT5000 | Graduate & Prof Skill Devlopment</div>
+                            <div class="col-md-4">Summer I 2022</div>
+                            <div class="col-md-2">
+                                A (4.0)
+                                <i class="fas fa-chevron-down float-right chevron"></i>
+                            </div>
+                        </div>
+                        <div class="course-details">
+                            <div class="course-details-inner">
+                                <p>
+                                    The course introduces students to the tools needed to complete an advanced degree in Computer Information Systems at New England College.
+                                    Students review the basic English level skills required to conduct scholarly and professional research and to report their results in a standard recognized format.
+                                    The class also focuses on the tools needed to participate successfully in an intercultural, professional IT environment, including job procurement techniques, resume preparation and employment interviewing techniques.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Course 6-->
+                    <div class="course-row" onclick="toggleDetails(this)">
+                        <div class="row course-content">
+                            <div class="col-md-6">CT5610 | Database Design</div>
+                            <div class="col-md-4">Fall I 2022</div>
+                            <div class="col-md-2">
+                                A (4.0)
+                                <i class="fas fa-chevron-down float-right chevron"></i>
+                            </div>
+                        </div>
+                        <div class="course-details">
+                            <div class="course-details-inner">
+                                <p>
+                                    This course introduces database design and creation. Emphasis is on data dictionaries, normalization, data integrity, data modeling, and creation of simple tables, queries, reports, and forms.
+                                    Students should be able to design and implement normalized database structures by creating database tables, queries, reports, and forms. Students will use MS Access and MS SQL Server and the SQL programming language.
+                                    They will also work with Visio to create database diagrams.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Course 7-->
+                    <div class="course-row" onclick="toggleDetails(this)">
+                        <div class="row course-content">
+                            <div class="col-md-6">CT6110 | IT Project Management</div>
+                            <div class="col-md-4">Fall II 2022</div>
+                            <div class="col-md-2">
+                                A (3.84)
+                                <i class="fas fa-chevron-down float-right chevron"></i>
+                            </div>
+                        </div>
+                        <div class="course-details">
+                            <div class="course-details-inner">
+                                <p>
+                                    This course is designed to apply the principles and methodologies of project management to plan and manage IT projects.
+                                    Throughout the course, students use technology applications and address real-world problems.
+                                    Students will learn the skills necessary to define project scope, create workable project plans, and manage projects with quality, budget, and schedule in mind.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Course 8-->
+                    <div class="course-row" onclick="toggleDetails(this)">
+                        <div class="row course-content">
+                            <div class="col-md-6">CT6111 | Information Security</div>
+                            <div class="col-md-4">Fall II 2022</div>
+                            <div class="col-md-2">
+                                A (4.0)
+                                <i class="fas fa-chevron-down float-right chevron"></i>
+                            </div>
+                        </div>
+                        <div class="course-details">
+                            <div class="course-details-inner">
+                                <p>
+                                    Cybersecurity is a growing field that deals with threats to hardware and software in both public and private environments.
+                                    This course is designed to prepare the software professional for a wide range of security challenges, including reviews of: cryptography, web security, network attacks, malware, operating systems, cloud processing and physical security.
+                                    A wide range of security tools and procedures will be considered.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Course 9-->
+                    <div class="course-row" onclick="toggleDetails(this)">
+                        <div class="row course-content">
+                            <div class="col-md-6">CT6530 | Python Programming</div>
+                            <div class="col-md-4">Fall I 2022</div>
+                            <div class="col-md-2">
+                                A (3.84)
+                                <i class="fas fa-chevron-down float-right chevron"></i>
+                            </div>
+                        </div>
+                        <div class="course-details">
+                            <div class="course-details-inner">
+                                <p>
+                                    This course provides an introduction to computer programming in Python, a popular, easy-to-learn, cross-platform language with extensive libraries.
+                                    Programs can be written for immediate interpretation or for compilation. The language, libraries and development environments are open-source and free.
+                                    Students will learn to recognize problems appropriate for computer program solutions, to determine the requirements of those solutions, and to translate those requirements into procedural programming constructs.
+                                    Object-oriented programming methodology will also be covered.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Course End-->
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+
+    <footer class="border-top footer text-muted">
+        <div class="container text-center text-dark">
+            &copy; 2024 SnehilPortfolio
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        function toggleDetails(element) {
+            element.classList.toggle('active');
+            var details = element.querySelector('.course-details');
+            if (element.classList.contains('active')) {
+                details.style.maxHeight = details.scrollHeight + "px";
+            } else {
+                details.style.maxHeight = "0";
+            }
+        }
+
+        // Initialize AOS
+        AOS.init();
+    </script>
+</body>
+</html>
